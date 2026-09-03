@@ -69,21 +69,19 @@ Evaluation Metric: Accuracy
 Image Size: 128 × 128
 Batch Size: 32
 Epochs: 6
-🔍 Prediction
 
+🔍 Prediction
 After training, the model was tested on a new image that was not used during training.
 
 The model provides:
-
 Predicted class
 Prediction confidence
 
 Example:
-
 Predicted animal: dogs
-Confidence: XX.XX%
-📊 Model Evaluation
+Confidence: 57.94906%
 
+📊 Model Evaluation
 The model was evaluated using the separate test dataset.
 
 Test Results
@@ -92,13 +90,11 @@ Test Accuracy	Add your result
 Test Loss	Add your result
 
 The notebook also includes visualizations of:
-
 Training vs Validation Accuracy
 Training vs Validation Loss
 📈 Visualizations
 
 The project includes:
-
 Random sample images from the dataset
 Training and validation accuracy curves
 Training and validation loss curves
@@ -114,6 +110,7 @@ NumPy
 Matplotlib
 Jupyter Notebook
 VS Code
+
 📁 Project Structure
 cat-vs-dog-cnn/
 │
@@ -142,7 +139,6 @@ python -m venv venv
 3. Activate the virtual environment
 
 Windows:
-
 venv\Scripts\activate
 4. Install the required libraries
 pip install -r requirements.txt
@@ -151,11 +147,9 @@ pip install -r requirements.txt
 Download the Cat vs Dog dataset and place it according to the folder structure described above.
 
 6. Run the notebook
-
 Open:
 
 cat_vs_dog_cnn.ipynb
-
 in VS Code and run the cells sequentially.
 
 💡 Key Learnings
@@ -174,7 +168,6 @@ Interpreting accuracy and loss curves
 Most importantly, this project helped me move from understanding CNN concepts theoretically to implementing an end-to-end image classification model.
 
 🚀 Future Improvements
-
 Some possible improvements for future versions include:
 
 Data augmentation
@@ -183,8 +176,8 @@ Hyperparameter tuning
 Increasing the number of training epochs
 Transfer learning using pretrained CNN models
 Comparing the custom CNN with models such as MobileNet or VGG
-👩‍💻 About This Project
 
+👩‍💻 About This Project
 This project is part of my personal learning journey as I continue building practical projects in Machine Learning and Deep Learning.
 
-Next: Exploring RNNs and LSTMs for sequence and text-based problems.
+Thank You!
